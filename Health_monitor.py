@@ -5,7 +5,7 @@ class health_monitor:
         self.voltage = voltage
         self.sensors = [self.cpu, self.temperature, self.voltage]
 
-    def check_all(self):
+    def check_all(self): # dy check law kol 7aga fy range el tabi3y bta3ha wala la2
         for sensor in self.sensors:
             if not sensor.is_healthy():
                 return False
