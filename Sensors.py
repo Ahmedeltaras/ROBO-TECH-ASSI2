@@ -14,7 +14,7 @@ class Sensor:
         return self.current_value
 
     def is_healthy(self):
-        if self.min_value <= self.current_value <= self.max_value:  # checks if the value is in boundaries, inclusive
+        if self.min_value <= self.current_value <= self.max_value: # hena byechck law el current value fy el range wala la2
             return True
         else:
             return False
