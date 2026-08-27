@@ -21,6 +21,6 @@ class Sensor:
 
 
 
-cpu = Sensor("CPU", 0, 90)
-voltage = Sensor("Voltage", 4.75, 5.25)
-temperature = Sensor("Temperature", 0, 80)
+cpu = Sensor("CPU", 0, 90) # dol el values el min w el max lel CPU
+voltage = Sensor("Voltage", 4.75, 5.25) # dol el values el min w el max lel Voltage
+temperature = Sensor("Temperature", 0, 80) # dol el values el min w el max lel Tempreture
