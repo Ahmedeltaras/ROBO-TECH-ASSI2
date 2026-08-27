@@ -10,10 +10,10 @@ class thrusterController:
     def move(self, direction):
         if not self.is_cooling_down:
             if direction == "up":
-                self.thrusters = [20, 20, 20, 20, 20, 20, 20, 20] # here is the values that is displayed when moving upwards
+                self.thrusters = [20, 20, 20, 20, 20, 20, 20, 20] # hna el value el btezhar lama yet7arak fooq
             elif direction == "down":
-                self.thrusters = [-20, -20, -20, -20, -20, -20, -20, -20] # here is the values that is displayed when moving downwards
+                self.thrusters = [-20, -20, -20, -20, -20, -20, -20, -20] # hna el value el btezhar lama yet7arak t7t
             elif direction == "right":
-                self.thrusters = [10, 10, 10, 10, 10, 10, 10, 10] # here is the values that is displayed when moving to the right
+                self.thrusters = [10, 10, 10, 10, 10, 10, 10, 10] # hna el value el btezhar lama yet7arak right
             elif direction == "left":
-                self.thrusters = [-10, -10, -10, -10, -10, -10, -10, -10] # here is the values that is displayed when moving to the left
+                self.thrusters = [-10, -10, -10, -10, -10, -10, -10, -10] # hna el value el btezhar lama yet7arak shemal
